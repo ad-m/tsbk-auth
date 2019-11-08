@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+  app:
+    environment:
+      HEROKU_OAUTH_ID: 'xxxxx'
+      HEROKU_OAUTH_SECRET: 'xxxxx'

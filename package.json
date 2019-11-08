@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "Adam Dobrawy",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.9.0",
+    "koa-body": "^4.1.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0",
+    "level": "^5.0.1",
+    "superagent": "^5.1.0",
+    "superagent-logger": "^1.1.0"
+  },
+  "devDependencies": {
+    "@hyperone/eslint-config": "^2.0.0",
+    "eslint": "^6.5.1",
+    "nodemon": "^1.19.3"
+  }
+}
